@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "Unbounded";
+  src: url(../assets/Unbounded-Regular.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Unbounded", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(0deg, 0%, 48%);
+}
+
+.calculator {
+  background-color: hsl(0deg, 2%, 28%);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 2px 1px 38px -3px hsla(0deg, 0%, 0%, 0.75);
+  -webkit-box-shadow: 2px 1px 38px -3px hsla(0deg, 0%, 0%, 0.75);
+  -moz-box-shadow: 2px 1px 38px -3px hsla(0deg, 0%, 0%, 0.75);
+}
+
+.screen {
+  overflow: hidden;
+  width: 240px;
+  height: 50px;
+  background-color: hsl(75deg, 3%, 75%);
+  font-size: 30px;
+  text-align: end;
+  padding: 4px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  width: 250px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button {
+  background-color: hsl(0deg, 1%, 51%);
+  border: none;
+  color: hsl(208deg, 100%, 97%);
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin: 6px;
+}
+button:hover {
+  background-color: hsl(0deg, 0%, 43%);
+}
+button:active {
+  background-color: hsl(0deg, 0%, 91%);
+  color: hsl(0deg, 0%, 0%);
+}
+
+.operator {
+  background-color: hsl(53deg, 64%, 65%);
+  color: hsl(0deg, 2%, 28%);
+  font-size: 20px;
+}
+.operator:hover {
+  background-color: hsl(56deg, 100%, 61%);
+}
+
+#clear {
+  background-color: hsl(0deg, 66%, 65%);
+}
+#clear:hover {
+  background-color: hsl(0deg, 76%, 57%);
+}
+
+#equals {
+  width: 100%;
+  background-color: hsl(110deg, 50%, 51%);
+}
+#equals:hover {
+  background-color: hsl(100deg, 84%, 62%);
+}/*# sourceMappingURL=styles.css.map */
