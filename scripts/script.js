@@ -13,7 +13,7 @@ function calculate(button) {
     screenDisplay.textContent = "";
     decimalEntered = false; // reset the flag for decimal point
   } else if (value === "=") {
-    screenDisplay.textContent = eval(screenDisplay.textContent).toFixed(4); // specify number of decimal places here
+    screenDisplay.textContent = eval(screenDisplay.textContent).toFixed(2); // specify number of decimal places here
     decimalEntered = false; // reset the flag for decimal point
   }  else if (value === 'C') {
     const currentText = screenDisplay.textContent;

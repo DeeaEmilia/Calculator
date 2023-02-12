@@ -77,7 +77,15 @@ button {
         background-color: hsl(56, 100%, 61%);
     }
 }
+.clear-last {
+    background-color: hsl(197, 98%, 58%);
+    color: hsl(0, 2%, 28%);
 
+    &:hover {
+        background-color: hsl(197, 75%, 45%);
+    }
+
+}
 #clear {
     background-color: hsl(0, 66%, 65%);
 
