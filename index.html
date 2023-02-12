@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/modal.css" />
     <title>Calculator</title>
   </head>
 
@@ -14,28 +15,40 @@
       <div class="screen"></div>
         <br>
         <div class="buttons">
+          <button id="clear">DEL</button>
+          <button class="operator">+</button>
+          <button class="operator">-</button>
+          <button class="clear-last">C</button>
           <button>7</button>
           <button>8</button>
           <button>9</button>
-          <button class="operator">+</button>
+          <button class="operator">*</button>
           <button>4</button>
           <button>5</button>
           <button>6</button>
-          <button class="operator">-</button>
+          <button class="operator">/</button>
           <button>1</button>
           <button>2</button>
           <button>3</button>
-          <button class="operator">*</button>
           <button class="operator">.</button>
           <button>0</button>
-          <button class="operator">/</button>
-          <button id="clear">DEL</button>
-         
+          <button class="operator" id="equals">=</button>
         </div>
         <br>
-        <button class="operator" id="equals">=</button>
     </div>
-
+    <div class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <p>Alert</p>
+        </div>
+        <div class="modal-body">
+          Maximum number of digits reached.
+        </div>
+        <div class="modal-footer">
+          <button class="btn-okay">OK</button>
+        </div>
+      </div>
+    </div>
     <script src="./scripts/script.js"></script>
   </body>
 

@@ -78,7 +78,7 @@ button:active {
 }
 
 #equals {
-  width: 100%;
+  flex: 3;
   background-color: hsl(110deg, 50%, 51%);
 }
 #equals:hover {
